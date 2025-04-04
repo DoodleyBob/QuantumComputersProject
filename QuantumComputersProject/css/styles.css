@@ -26,6 +26,7 @@ body {
     font-size: 3em;
     transition: .3s ease;
     color: whitesmoke;
+    border: 2px dashed darkslategray;
 }
 
 .off-screen-menu.active {
@@ -38,8 +39,10 @@ nav {
     background-color: rgb(24, 24, 24);
 }
 
-nav li{
+div li a{
+    color: whitesmoke;
 
+    
 }
 
 .ham-menu {
@@ -52,11 +55,11 @@ nav li{
 .ham-menu span {
     height: 3px;
     width: 50px;
-    color: white;
+    background-color: white;
     border-radius: 25px;
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     transition: .3s ease; 
 }
@@ -82,4 +85,21 @@ nav li{
 .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, 25%) rotate(-135deg);
+}
+
+#bodyP {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.img1 {
+    margin-left: 10%;
+}
+
+.img2 {
+    left: 50px;
+}
+
+.img3 {
+
 }
