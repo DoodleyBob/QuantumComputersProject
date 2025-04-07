@@ -41,8 +41,12 @@ nav {
 
 div li a{
     color: whitesmoke;
-
-    
+    margin-left: 25px;
+}
+a {
+    color: whitesmoke;
+    margin-left: 125px;
+    font-size: 30px;
 }
 
 .ham-menu {
@@ -106,8 +110,13 @@ div li a{
 
 
 .footer {
-    height: 20px;
+    height: fill;
     width: fill;
     background-color: black;
     color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 25px;
 }
