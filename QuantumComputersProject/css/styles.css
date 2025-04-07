@@ -93,13 +93,21 @@ div li a{
 }
 
 .img1 {
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .img2 {
-    left: 50px;
+    margin-left: 15%;
 }
 
 .img3 {
+    margin-left: 15%;
+}
 
+
+.footer {
+    height: 20px;
+    width: fill;
+    background-color: black;
+    color: white;
 }
