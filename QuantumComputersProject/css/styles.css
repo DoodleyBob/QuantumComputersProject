@@ -27,6 +27,7 @@ body {
     transition: .3s ease;
     color: whitesmoke;
     border: 2px dashed darkslategray;
+    position: fixed;
 }
 
 .off-screen-menu.active {
@@ -118,5 +119,6 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    margin-top: 25px;
+    margin: 0;
+    padding: 0;
 }
